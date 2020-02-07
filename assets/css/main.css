@@ -2566,6 +2566,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		filter: brightness(50%);
 	}
 
 		.image img {
@@ -3022,7 +3023,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: #012a62;
+				background: black;
 				content: '';
 				display: block;
 				height: 100%;
