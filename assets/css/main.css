@@ -1831,7 +1831,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
-		background-color: transparent;
+		background-color: gray;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
@@ -3775,7 +3775,7 @@ input, select, textarea {
                 
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
                 
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #012a62, white);
                 
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
