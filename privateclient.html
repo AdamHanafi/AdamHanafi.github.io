@@ -36,7 +36,18 @@
 		  
 		  
 		  
-		
+		<script>
+			$('.button').click(function(){
+			  var buttonId = $(this).attr('id');
+			  $('#modal-container').removeAttr('class').addClass(buttonId);
+			  $('body').addClass('modal-active');
+			})
+
+			$('#modal-container').click(function(){
+			  $(this).addClass('out');
+			  $('body').removeClass('modal-active');
+			});
+		  </script>
 		  
 
 
@@ -44,11 +55,6 @@
 			  
 		  
 		  
-		  
-		  
-		  
-		  
-			  
 			  
 			  
 			<!-- Wrapper -->
@@ -64,7 +70,7 @@
 							  </div>
 							  <ul class="navigation-list">
 								<li class="navigation-item">
-								  <a class="navigation-link navigation-link-1" style='font-family: Cosi Azure' href="#">
+								  <a class="navigation-link navigation-link-1" style='font-family: Cosi Azure' href="pa.html">
 									<span data-text="Planning&nbsp;&&nbsp;Advice">Planning & Advice</span>
 								  </a>
 								</li>
@@ -189,6 +195,9 @@
 		</script>
 	
 
+		  
+		  
+		  
 	</body>
 		
 		
