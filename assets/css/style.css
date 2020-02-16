@@ -218,7 +218,7 @@ span {
 		background-size: 100% 100%;
 	}
 
-@media (max-width: 900px) {
+@media (max-width: 400px) {
   .progressbar,
   .project-preview-wrapper {
     display: none;
@@ -278,7 +278,7 @@ span {
 			width: 75em;
 		}
 
-			@media screen and (max-width: 1680px) {
+			@media screen and (max-width: 80px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
@@ -286,7 +286,7 @@ span {
 
 			}
 
-			@media screen and (max-width: 1280px) {
+			@media screen and (max-width: 80px) {
 
 				.wrapper > .inner {
 					width: 100%;
@@ -294,7 +294,7 @@ span {
 
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 36px) {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
