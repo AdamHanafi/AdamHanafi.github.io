@@ -115,6 +115,61 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+
+
+
+.quote {
+ 
+  
+}
+
+.QuoteModal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  transition: opacity 300ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.QuoteModal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup_modal {
+  position: relative;
+  margin: 70px auto;
+  padding: 20px;
+  background: black;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px 10px #eee;
+  width: 800px;
+}
+
+.popup_modal .quoteclose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Type */
 
 	body, input, select, textarea {
