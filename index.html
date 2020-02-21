@@ -14,7 +14,39 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	
-	
+	<!-- Trigger/Open The Modal -->
+							<!-- <button id="myBtn">Open Modal</button> -->
+							<!-- The Modal -->
+							<div id="myModal" class="modal" style='z-index: 200000;'>
+
+							  <!-- Modal content -->
+							  <div class="modal-content">
+								<p>WEBSITE TERMS OF USE </p>
+								<p class="style:text-align:left;">For Professional Investors ONLY</p>
+								<p>RELIANCE ON THIS WEBSITE AND INFORMATION (THE “WEBSITE”) FOR THE PURPOSE OF ENGAGING IN ANY INVESTMENT ACTIVITY MAY EXPOSE AN INDIVIDUAL TO A SIGNIFICANT RISK OF LOSING ALL CAPITAL INVESTED. PLEASE NOTE THAT FOR REGULATORY PURPOSES, BY PROCEEDING WE WILL BE TREATING YOU AS A PROFESSIONAL INVESTOR.</p>
+								<p>If you are in any doubt about the action you should take or the contents of this website. You should contact your professional advisers authorised under the Financial Services and Markets Act 2000.</p>
+								<p>This legal and regulatory notice is issued by N.C. Capital Limited ‘NCCL’. N.C. Capital Limited is an Appointed Representative of Sapia Partners LLP ‘Sapia’, which is regulated and authorised by the Financial Conduct Authority, FRN 550103. If you do not accept the terms of this disclaimer please do not continue to use or access any pages of this Website. </p>
+								<p>The use of (website link here) (this “Website”) is subject to the following terms and conditions (these “Terms”).  After you have read and understood these Terms, you may click “I Agree” to confirm that you (i) have read and understood and agree to these Terms, which create a binding legal agreement between us; (ii) agree to abide by these Terms on every occasion that you access this Website; (iii) are a Professional Client or an Eligible Counterparty under the rules of the Financial Conduct Authority of the United Kingdom and (iv) are accessing this Website in compliance with the laws and regulations of the jurisdiction or country in which you are residing. If you do not agree to these Terms, please refrain from using this Website.</p>
+								<p>In these Terms, references to “you” and “your” are references to any person using or accessing (or attempting to use or access) this Website. Unless otherwise defined herein, capitalised terms refer to the definition of such terms in the respective rules and regulations of the relevant jurisdiction. This Website (and the information within it) is directed only at, and contains information about products and services which are only available to, those persons who are Professional Clients or Eligible Counterparties (as defined in the rules of the Financial Conduct Authority of the United States and United Kingdom (the “FCA Rules”). The definitions of Professional Client and Eligible Counterparty can be found on the FCA’s website. If you are in any doubt as to your status you should consult a financial adviser or contact us.</p>
+								<p>NCCL provides the Website for the purpose of general information purposes only and the information and materials contained therein should not be relied upon as a substitute for financial or other professional advice. Nothing on this Website constitutes: (i) an offer, advice, invitation or solicitation by NCCL or its affiliates to buy or sell any investments or securities, futures, options or other financial instruments; (ii) an invitation or inducement to engage in investment activity or a financial promotion of any kind; or (iii) investment advice or recommendation.</p>
+								<p> In addition to the above, this Website, and the information within it, are not directed at, or addressed to, any person resident in the territory of any country or jurisdiction where such distribution would be contrary to local law or regulation.  Accordingly, all persons who access this Website are required to inform themselves of, and to comply with, any such restrictions.</p>
+								<p>Please read the information set out below. Potential investors should consult their financial adviser before making any investments. Potential investors should also fully consider the available information, including, but not limited to the risk warnings set out below.</p>
+								<p>Investing entails risks, including possible loss of principal. No representation is being made that any investment or transaction will or is likely to achieve profits or losses similar to those achieved in the past, or that significant losses will be avoided. No assurances or guarantees are given regarding the performance of any investment. Past performance may not be repeated and should not be seen as a guide to future performance.</p>
+								<p>I AGREE AND CONFIRM THAT I AM A PROFESSIONAL CLIENT OR AN ELIGIBLE COUNTERPARTY UNDER THE RULES OF THE FINANCIAL CONDUCT AUTHORITY OF THE UNITED STATES OR UNITED KINGDOM, AND I AM ACCESSING THIS WEBSITE IN COMPLIANCE WITH THE LAWS AND REGULATIONS OF THE JURISDICTION OR COUNTRY IN WHICH I AM RESIDING.</p>
+								<p>By clicking “I AGREE” below this will certify that you have read the above disclaimer and that you understand and agree that:</p>
+								<p>Nothing contained on this Website is deemed to be an offer to sell;</p>
+								<p>You are a professional investor;</p>
+								<p>Investments are subject to risk and can gain or lose money;</p>
+								<p>Some or all investment services or products may not be available to you in your jurisdiction.</p>
+
+								<span class="button">I AGREE</span>
+
+							  </div>
+
+							</div>
+							
+							
+							
 	<body class="is-preload">
 		
 		
@@ -35,6 +67,7 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+				
 
 				<!-- Intro -->
 					<section id="intro" class="wrapper stylex fullscreen fade-up">
@@ -44,6 +77,7 @@
 							<ul class="actions">
 								<li><a href="login.html" class="button scrolly">Client <i class="fa fa-lock" aria-hidden="true"></i></a></li>
 							</ul>
+
 						</div>
 					</section>
 
@@ -208,7 +242,33 @@
 
 		<!-- Scripts -->
 			
-		
+			<script>
+			// Get the modal
+			var modal = document.getElementById("myModal");
+
+			// Get the button that opens the modal
+			//var btn = document.getElementById("myBtn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("button")[0];
+
+			// When the user clicks the button, open the modal 
+			//btn.onclick = function() {
+			  //modal.style.display = "block";
+			//}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			//window.onclick = function(event) {
+			  //if (event.target == modal) {
+				//modal.style.display = "none";
+			  //}
+			//}
+			</script>
 		
 		
 			<script src="assets/js/jquery.min.js"></script>
